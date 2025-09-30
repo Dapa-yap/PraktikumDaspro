@@ -6,3 +6,5 @@
 Commit: untuk menyimpan perubahan di tempat sementara sebelum di repository github
 Push : untuk mengupload dari repository  local ke repository github
 3.	Ketika Test.txt sudah dilakukan add, commit and push, file tersebut akan muncul di repository github 	
+
+![TUGAS KOLABORASI](\Users\Daffa Dwi\Pictures\Screenshots "TUGAS KOLABORASI")

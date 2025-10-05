@@ -13,6 +13,7 @@ public class iFCetakKRS10 {
             System.out.println("Pembayaran UKT Belum Terverifikasi");
             System.out.println("Silahkan lakukan pembayaran UKT terlebih dahulu");
         }
+        System.out.println(ukt ? "Pembayaran UKT Terverifikasi" : "Silakan lunasi UKT terlebih dahulu");
     }
 }
     

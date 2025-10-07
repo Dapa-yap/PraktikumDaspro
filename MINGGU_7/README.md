@@ -42,3 +42,15 @@ Percobaan 2”
 
 ![Flowchart 2](https://github.com/Dapa-yap/PraktikumDaspro/blob/main/MINGGU_7/img/2.png?raw=true)
 
+**2.3 Percobaan 3**
+1. Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan bebas kompen?
+Mengapa demikian?
+2. Jelaskan maksud dari potongan kode berikut!
+3. Bagaimana alur pemeriksaan syarat mahasiswa dari awal sampai akhir? Jelaskan secara
+runtut untuk semua kondisi!
+
+<p>**Jawaban**</p>
+
+1. akan langsung mengeluarkan hasil bahwa dia gagal karena tanggungan kompen
+2. jika log pembimbing 1 lebih dari 8 atau sama dengan 8 dan log pembimbing 2 lebih dari 4 atau sama dengan 4 maka dia bisa daftar ujian skripsi jika hanya salah satu maka tidak bisa daftar ujian skripsi
+3. alur pemeriksaan syarat mahasiswa dari awal sampai akhir adalah jika mahasiswa lanjut bebas kompen maka akan mengecek log pembimbing 1 dan log pembimbing 2 jika log pembimbing 1 lebih dari 8 atau sama dengan 8 dan log pembimbing 2 lebih dari 4 atau sama dengan 4 maka dia bisa daftar ujian skripsi jika hanya salah satu maka tidak bisa daftar ujian skripsi jika tidak bebas kompen maka akan langsung mengeluarkan hasil bahwa dia gagal karena tanggungan kompen

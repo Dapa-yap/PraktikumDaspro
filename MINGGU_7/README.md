@@ -16,10 +16,12 @@ program tersebut dengan menambahkan struktur ELSE!
 Percobaan 1”
 <p>**Jawaban**</p>
 
-1.Karena kondisi yang dibutuhkan hanya 1 kondisi saja tidak lebih
+1. Karena kondisi yang dibutuhkan hanya 1 kondisi saja tidak lebih
 
 2. hasilnya akan menunjukan negasi dari true yaitu registrasi ditolak  dan silahkan lunasi UKT terlebih dahulu
 
-3. ![Flowchart 1](https://github.com/Dapa-yap/PraktikumDaspro/blob/main/MINGGU_7/img/prak.png?raw=true)
+3. codingan
+
+![Flowchart 1](https://github.com/Dapa-yap/PraktikumDaspro/blob/main/MINGGU_7/img/prak.png?raw=true)
 
 

@@ -10,8 +10,8 @@ public class iFCetakKRS10 {
             System.out.println("Pembayaran UKT Terverifikasi");
             System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");
         } else {
-            System.out.println("Pembayaran UKT Belum Terverifikasi");
-            System.out.println("Silahkan lakukan pembayaran UKT terlebih dahulu");
+            System.out.println("Registrasi ditolak");
+            System.out.println("Silahkan lakukan pembayaran Ukt terlebih dahulu");
         }
         System.out.println(ukt ? "Pembayaran UKT Terverifikasi" : "Silakan lunasi UKT terlebih dahulu");
     }

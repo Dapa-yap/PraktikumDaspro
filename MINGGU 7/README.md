@@ -17,5 +17,5 @@ Percobaan 1”
 **Jawaban**
 1. Karena kondisi yang dibutuhkan hanya 1 kondisi saja tidak lebih
 2. hasilnya akan menunjukan negasi dari true yaitu registrasi ditolak  dan silahkan lunasi UKT terlebih dahulu
-3. ![Flowchart 1](https://github.com/Dapa-yap/PraktikumDaspro/blob/main/img/2.1.png?raw=true)
+3. ![Flowchart 1](https://github.com/Dapa-yap/PraktikumDaspro/blob/main/img/prak.png?raw=true)
 

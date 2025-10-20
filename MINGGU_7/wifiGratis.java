@@ -9,7 +9,7 @@ public class wifiGratis {
         System.out.println("Selamat datang di layanan wifi gratis");
     } else if (jenisPengguna.equals("Mahasiswa")) {
         System.out.println("Masukkan jumlah sks ");
-        int sks = sc.nextInt();
+        int sks = sc.nextInt(); 
         if (sks >= 12) {
             System.out.println("Selamat datang di layanan wifi gratis");
         } else {

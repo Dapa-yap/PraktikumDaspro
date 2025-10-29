@@ -26,4 +26,5 @@ Berisi hasil percobaan dari praktikum dasar pemrograman miinggu ke 7
 1. tidak
 2. yang perlu ditambahkan ialah System out println, jika tidak ditambahkan hasilnya akan dicetak dala satu baris tanpa pindah baris
 4. i	Mengatur jumlah baris (perulangan luar),j	Mengatur jumlah bintang per baris, Jika j tidak di-reset, maka perulangan dalam tidak akan dimulai dari awal setiap baris, sehingga bintang tidak bertambah setiap baris, dan pola segitiga gagal terbentuk.
-5. 
+### 2.4
+1. karena total nilai tersebut berfungsi untuk menjumlahkan semua nilai dari kelompok penilai, jika ditaruh di luar maka dia akan menjumlahkan semua kelompok bukan tiap kelompok

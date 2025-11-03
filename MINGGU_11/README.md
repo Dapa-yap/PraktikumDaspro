@@ -1,6 +1,6 @@
 # 🧪 PRAKTIKUM 11
 
-Berisi hasil percobaan dari praktikum dasar pemrograman miinggu ke 7
+Berisi hasil percobaan dari praktikum dasar pemrograman miinggu ke 11
 
 ## 👤 Identitas Mahasiswa
 

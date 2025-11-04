@@ -18,7 +18,8 @@ Berisi hasil percobaan dari praktikum dasar pemrograman miinggu ke 12
 4. jika <=4 akan terjadi eror karena indeks bilangan hanya hingga 3
 
 ### 2.2
-1. tidak terjadi error, cuman kode tersebut tidak fleksibel jika array diubah dan perulangan yang kedua tidak diubah maka akan terjadi error
+1. Tidak terjadi error secara langsung pada tampilan, tetapi penggunaan indeks mulai dari 1 dan kondisi i <= nilaiAkhir.length membuat program tidak fleksibel.Hal ini karena array di Java menggunakan indeks mulai dari 0 sampai length - 1.Jika ukuran array diubah atau jika perulangan digunakan untuk mengakses elemen array, maka akan terjadi error ArrayIndexOutOfBoundsException.
+Oleh karena itu, penggunaan kondisi i < nilaiAkhir.length lebih aman dan fleksibel.
 2. statement tersebut akan berulang sebanyak panjang array, selama masih berada dalam jumlah array
 
 ### 2.4

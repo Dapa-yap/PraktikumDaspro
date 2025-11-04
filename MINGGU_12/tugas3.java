@@ -18,7 +18,7 @@ public class tugas3 {
             }
         }
         if (!ditemukan) {
-            System.out.println("Maaaf" + pilihan + "Menu Makanan Tidak Tersedia");
+            System.out.println("Maaf" + pilihan + "Menu Makanan Tidak Tersedia");
         }
     }
 }

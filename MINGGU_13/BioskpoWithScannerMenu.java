@@ -38,7 +38,11 @@ public class BioskpoWithScannerMenu {
                 for (int i = 0; i < penonton.length; i++) {
                     System.out.print("Baris ke-" + (i + 1) + ": ");
                     for (int j = 0; j < penonton[i].length; j++) {
-                        System.out.print(penonton[i][j]);
+                        if (penonton[i][j] == null) {
+                            System.out.print("***");
+                        } else {
+                            System.out.print(penonton[i][j]);
+                        }
                         if (j < penonton[i].length - 1) {
                             System.out.print(", ");
                         }

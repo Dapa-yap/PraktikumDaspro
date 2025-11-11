@@ -12,13 +12,9 @@ public class bioskop {
      penonton[3][1] = "Hana";
 
      System.out.println("penonton.length");
-     for(String[] baris : penonton){
-        System.out.println("Panjang baris " + baris.length);
-        }
-    System.out.println("Penonton pada baris ke-3 adalah");
-    for(String i : penonton[2]){
-        System.out.println(i);
-    }
+     for (int i = 0; i < penonton.length; i++) {
+        System.out.println("Penonton pada baris ke-" + (i + 1) + ":" + String.join(",", penonton[i]));
+     }
      }
     }   
 

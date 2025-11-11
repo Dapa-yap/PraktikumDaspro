@@ -13,18 +13,16 @@ public class BioskpoWithScannerMenu {
             System.out.println("3. Exit");
             System.out.print("Pilih menu (1-3): ");
             int pilihan = sc.nextInt();
-            sc.nextLine(); // membersihkan buffer
+            sc.nextLine(); 
 
             if (pilihan == 1) {
                 System.out.print("Masukkan nama penonton: ");
                 String nama = sc.nextLine();
-                System.out.print("Masukkan baris (1-4): ");
+                System.out.print("Masukkan baris: ");
                 int baris = sc.nextInt();
-                System.out.print("Masukkan kolom (1-2): ");
+                System.out.print("Masukkan kolom: ");
                 int kolom = sc.nextInt();
                 sc.nextLine();
-
-                // Simpan nama langsung ke array (tanpa validasi)
                 penonton[baris - 1][kolom - 1] = nama;
 
             } else if (pilihan == 2) {

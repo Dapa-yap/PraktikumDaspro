@@ -15,7 +15,14 @@ public class biskopwithScanner {
             System.out.println("Masukkan kolom: ");
             int kolom = sc.nextInt();
             sc.nextLine();
-        
+            if (baris < 1 || baris > 4 || kolom < 1 || kolom > 2) {
+                System.out.println("Baris atau kolom tidak valid!");
+                continue;
+            }
+            if (penonton[baris-1][kolom-1] != null) {
+                System.out.println("Kursi sudah ditempati!");
+                continue;
+            }
             penonton[baris-1][kolom-1] = nama;
             System.out.println("Ingin menambahkan penonton lagi? (y/n)");
             String next = sc.nextLine();
@@ -30,4 +37,4 @@ public class biskopwithScanner {
         }
     }
 }
-        
+}       

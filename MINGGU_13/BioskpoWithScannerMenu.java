@@ -23,16 +23,16 @@ public class BioskpoWithScannerMenu {
             System.out.print("Masukkan kolom: ");
             int kolom = sc.nextInt();
             sc.nextLine();
-            penonton[baris - 1][kolom - 1] = nama;
             if (baris < 1 || baris > 4 || kolom < 1 || kolom > 2) {
                 System.out.println("Baris atau kolom tidak valid!");
                 continue;
-    
+                
             } 
             if (penonton[baris - 1][kolom - 1] != null) {
                 System.out.println("Kursi sudah ditempati!");
                 continue;
             }
+            penonton[baris - 1][kolom - 1] = nama;
         } else if (pilihan == 2) {
             System.out.println("\n=== DAFTAR PENONTON ===");
                 for (int i = 0; i < penonton.length; i++) {

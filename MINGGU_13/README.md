@@ -23,3 +23,7 @@ Berisi hasil percobaan dari praktikum dasar pemrograman miinggu ke 13
 
 ### 2.2
 1. Tidak, pengisian elemen array dari Scanner tidak harus dilakukan secara berurutan mulai dari indeks ke-0, karena pengguna bisa langsung memilih indeks mana saja (baris dan kolom tertentu) untuk diisi sesuai input yang dimasukkan.
+### 2.3
+2. mengonversi array misalnya int[] menjadi String agar bisa ditampilkan, tapi tidak mengubah tipe data aslinya, hanya hasil tampilannya saja yang berupa teks.
+3. nilai default untuk tipe data int adalah 0
+5. tidak bisa, jika ingin mengganti harus membuat array baru    

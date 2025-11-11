@@ -13,7 +13,7 @@ public class BioskpoWithScannerMenu {
             System.out.println("3. Exit");
             System.out.print("Pilih menu (1-3): ");
             int pilihan = sc.nextInt();
-            sc.nextLine(); 
+            sc.nextLine(); // membersihkan buffer
 
             if (pilihan == 1) {
                 System.out.print("Masukkan nama penonton: ");
@@ -24,28 +24,15 @@ public class BioskpoWithScannerMenu {
                 int kolom = sc.nextInt();
                 sc.nextLine();
 
-                if (baris < 1 || baris > 4 || kolom < 1 || kolom > 2) {
-                    System.out.println("Baris atau kolom tidak valid!");
-                    continue;
-                }
-
-                if (penonton[baris - 1][kolom - 1] != null) {
-                    System.out.println("Kursi sudah ditempati!");
-                } else {
-                    penonton[baris - 1][kolom - 1] = nama;
-                    System.out.println("Data penonton berhasil dimasukkan!");
-                }
+                // Simpan nama langsung ke array (tanpa validasi)
+                penonton[baris - 1][kolom - 1] = nama;
 
             } else if (pilihan == 2) {
                 System.out.println("\n=== DAFTAR PENONTON ===");
                 for (int i = 0; i < penonton.length; i++) {
                     System.out.print("Baris ke-" + (i + 1) + ": ");
                     for (int j = 0; j < penonton[i].length; j++) {
-                        if (penonton[i][j] == null) {
-                            System.out.print("*");
-                        } else {
-                            System.out.print(penonton[i][j]);
-                        }
+                        System.out.print(penonton[i][j]);
                         if (j < penonton[i].length - 1) {
                             System.out.print(", ");
                         }

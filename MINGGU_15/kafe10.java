@@ -1,10 +1,18 @@
     public class kafe10{
-    public static void menu(String namaPelanggan, boolean isMember){
+    public static void menu(String namaPelanggan, boolean isMember, String kodePromo){
         System.out.println("Selamat datang " + namaPelanggan + "!");
         if(isMember){
             System.out.println("Anda adalah member, Dapatkan diskon 10% untuk setiap pembelian!");
 
     }    
+    if (kodePromo.equalsIgnoreCase("DISKON50")){
+        System.out.println("Anda mendapatkan diskon 50%");
+
+    }else if (kodePromo.equalsIgnoreCase("DISKON30")) {
+        System.out.println("Anda mendapatkan diskon 30%");
+    }else
+        System.out.println("Kode invalid");
+    
     System.out.println("== MENU RESTO KAFE ==");
     System.out.println("1. Kopi Hitam - Rp.15,000");
     System.out.println("2. Cappucino - Rp.20,000");
@@ -16,6 +24,6 @@
     System.out.println("Silakan pilih menu yang anda inginkan");
 }
     public static void main(String[] args){
-    menu("Andi", true);
+    menu("Andi", true, "DISKON50");
     }
 }

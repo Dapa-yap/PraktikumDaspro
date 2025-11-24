@@ -47,11 +47,20 @@ public class kafe10{
 public static void main(String[] args){
     menu("Budi", true, "DISKON30");
     Scanner sc = new Scanner(System.in);
-    System.out.println("Masukkan nomor menu yang ingin anda pesan: ");
-    int pilihanMenu = sc.nextInt();
-    System.out.println("Masukkan jumlah item yang ingin anda pesan: ");
-    int banyakItem = sc.nextInt();
-    int totalHarga = hitungTotalharga(pilihanMenu, banyakItem, "DISKON30");
-    System.out.println("Total harga untuk pesanan anda: " + totalHarga);
-}
+    System.out.println("Berapa menu yang ingin anda pesan: ");
+    int berapaMenu = sc.nextInt();
+    String [] jumlahMenu = new String[berapaMenu];
+    int totalKeseluruhan = 0;
+    for (int i = 1; i <=jumlahMenu.length;i++){
+        System.out.println("Masukkan nomor menu yang ingin anda pesan: ");
+        int pilihanMenu = sc.nextInt();
+        System.out.println("Masukkan jumlah item yang ingin anda pesan: ");
+        int banyakItem = sc.nextInt();
+        int totalHarga = hitungTotalharga(pilihanMenu, banyakItem, "DISKON30");
+        System.out.println("Total harga untuk pesanan anda: " + totalHarga);
+        totalKeseluruhan += totalHarga;
+    }
+    System.out.println("Total keseluruhan anda adalah "+ totalKeseluruhan);
+        
+    }
 }

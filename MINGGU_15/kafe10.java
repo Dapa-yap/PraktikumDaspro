@@ -23,6 +23,11 @@
     System.out.println("============================");
     System.out.println("Silakan pilih menu yang anda inginkan");
 }
+    public static int hitungTotalharga(int pilihanMenu, int banyakItem){
+    int [] hargaItem = {15000, 20000, 22000, 12000, 10000, 18000};
+    int hargaTotal = hargaItem[pilihanMenu-1]*banyakItem;
+    return hargaTotal;
+    }
     public static void main(String[] args){
     menu("Budi", true, "DISKON30");
     }
